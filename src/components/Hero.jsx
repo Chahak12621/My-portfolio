@@ -131,7 +131,7 @@ export default function Hero() {
 
     const animate = () => {
       gl.clearRect(0, 0, width, height);
-      
+
       // Draw background ambient glow
       const gradient = gl.createRadialGradient(
         width / 2,
@@ -196,21 +196,21 @@ export default function Hero() {
   return (
     <section ref={containerRef} id="home" className="hero-section">
       <canvas ref={canvasRef} className="hero-canvas" />
-      
+
       <div className="container hero-container">
         <div className="hero-content">
           <h1 className="hero-title">
             <div className="hero-title-line">
-              <span>CREATIVE</span>
+              <span>Decision</span>
             </div>
             <br />
             <div className="hero-title-line">
-              <span>DEVELOPER</span>
+              <span>Scientist</span>
             </div>
           </h1>
-          
+
           <p ref={subtitleRef} className="hero-subtitle">
-            I craft immersive, high-performance web experiences where clean engineering meets elegant, cinematic design.
+            I build scalable, data-driven AI solutions that transform complex  business problems into intelligent, automated systems—bridging the gap between raw data , raw code numerical insights and actionable business impact.
           </p>
 
           <div ref={ctaRef} className="hero-actions">
@@ -227,8 +227,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <button 
-          className="scroll-indicator" 
+        <button
+          className="scroll-indicator"
           onClick={handleScrollClick}
           aria-label="Scroll down"
         >
