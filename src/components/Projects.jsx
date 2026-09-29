@@ -74,6 +74,36 @@ const projectsData = [
     github: 'https://github.com/Chahak12621/finance-ai',
     demo: 'https://alpigen-connect.vercel.app',
     imageBg: 'linear-gradient(135deg, #408a71 0%, #091413 100%)',
+  },
+  {
+    id: 6,
+    title: 'Sadhyaatra',
+    category: 'Artificial Intelligence',
+    description: 'An AI-powered travel itinerary generator that uses real-time data and user preferences to create personalized travel plans.',
+    tags: ['Python', 'Flask', 'Grok AI', 'Next Js', 'google-adk'],
+    github: 'https://github.com/Chahak12621/Sadhyaatra',
+    demo: 'sadhyaatra.vercel.app',
+    imageBg: 'linear-gradient(135deg, #1b3a30 0%, #091413 100%)',
+  },
+  {
+    id: 7,
+    title: 'Smart-Mcq-solver',
+    category: 'Natural Language Processing',
+    description: 'Designed a Bi-RNN model that processess the prompt and MCQs and generate top three suitale options accoridng to MAP@3 score',
+    tags: ['Python', 'Flask', 'Grok AI', 'Next Js', 'google-adk'],
+    github: 'https://github.com/Chahak12621',
+    demo: '#',
+    imageBg: 'linear-gradient(135deg, #1b3a30 0%, #091413 100%)',
+  },
+  {
+    id: 8,
+    title: 'Price-Predictor',
+    category: 'Machine learning',
+    description: 'Built an end-to-end Dynamic Pricing Engine using XGBoost to predict Airbnb listing prices based on location, demand, and property features. Implemented data preprocessing, feature engineering, model optimization, API development using FastAPI, and an interactive frontend using Streamlit. Deployed the solution to deliver real-time price predictions.',
+    tags: ['Python', 'XGBoost', 'FastAPI', 'Streamlit'],
+    github: 'https://github.com/Chahak12621/price-predictor',
+    demo: '#',
+    imageBg: 'linear-gradient(135deg, #1b3a30 0%, #091413 100%)',
   }
 ];
 

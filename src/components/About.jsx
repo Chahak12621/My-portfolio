@@ -151,7 +151,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text-column">
             <p>
-              I am a Machine Learning and Data Analytics enthusiast with a strong foundation in software engineering and mathematics.
+              I am a Decision Scientist and Agentic AI enthusiast with a strong foundation in  machine learning and data analytics.
               My journey combines the logical precision of a developer with the analytical curiosity of a data scientist.
               I specialize in building intelligent systems that translate complex data into actionable insights and seamless user experiences.
             </p>

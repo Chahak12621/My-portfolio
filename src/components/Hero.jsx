@@ -97,7 +97,7 @@ export default function Hero() {
       draw() {
         gl.beginPath();
         gl.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        gl.fillStyle = 'rgba(176, 228, 204, 0.45)'; // Mint color with alpha
+        gl.fillStyle = 'rgba(176, 228, 204, 0.45)';
         gl.fill();
       }
     }
